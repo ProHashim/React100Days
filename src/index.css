@@ -143,3 +143,8 @@ p{
   line-height: 1.7;
   max-width: 42em;
 }
+.visible{
+  position: absolute;
+  inset: 0 0 0 0;
+  max-width:fit-content;
+}
