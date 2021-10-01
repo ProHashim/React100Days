@@ -1,10 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
-const Header = () => {
-    const disclaimer = document.getElementById("disclaimer")
-    disclaimer.addEventListener("click", function () {
 
-    })
+
+const Header = () => {
+
     return (
         <div className="header-container">
             <header>
@@ -29,19 +28,16 @@ const Header = () => {
                         <li>
                             <a href="#">Contact</a>
                         </li>
-
-                        <li style={{
-                            background: "#54B7D3",
-                            padding: "5px 10px",
-                            borderRadius: "10px"
-                        }}
-                            id="disclaimer">
+                        <li>
                             <a href="#">Disclaimer</a>
                         </li>
+
+
                     </ul>
                 </nav>
 
             </header>
+
         </div>
     )
 }
