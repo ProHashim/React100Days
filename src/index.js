@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 
 import './index.css';
 import Header from './components/Header';
 import Main from './components/main';
 import Banner from './components/Banner';
+
+
+
 
 
 const Home = () => {
@@ -18,6 +21,7 @@ const Home = () => {
     </div>
   )
 }
+
 
 ReactDOM.render(
   <Home />,
