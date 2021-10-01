@@ -60,12 +60,18 @@ const Main = () => {
                     </li>
                     <li>
                         <details>
-                            <summary><h3 className="titles">bind(), apply(), and call()</h3></summary>
+                            <summary><h3 className="titles">this 😕 </h3></summary>
                             <p>
-                                {fullName.call(name, "Isb")}
-                                {fullName.call(name2, "Hamburg")}
-                                {fullName.apply(name2, ["Frankfurt"])}
-                                {myfullname()}
+                                The JavaScript this keyword refers to the object it belongs to. 🙋
+                                <p>It has different values depending on where it is used:</p>
+                                <ul class="definition-list">
+                                    <li>In a method, <code class="code">this</code> refers to the <b>owner object</b>.</li>
+                                    <li>Alone, <code class="code">this</code> refers to the <b>global object</b>.</li>
+                                    <li>In a function, <code class="code">this</code> refers to the <b>global object</b>.</li>
+                                    <li>In a function, in strict mode, <code class="code">this</code> is <code class="code">undefined</code>.</li>
+                                    <li>In an event, <code class="code">this</code> refers to the <b>element</b> that received the event.</li>
+                                    <li>Methods like <code class="code">call()</code>, and <code class="code">apply()</code> can refer <code class="code">this</code> to <b>any object</b>.</li>
+                                </ul>
                             </p>
                         </details>
 
