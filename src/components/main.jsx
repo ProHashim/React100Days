@@ -66,6 +66,25 @@ const Main = () => {
                         </details>
 
                     </li>
+
+                    <li>
+                        <details>
+                            <summary><h3 className="titles">Event Loop</h3></summary>
+                            <p>
+                                JS is a single threaded programming language means it can run one task at a time.
+                                Call stack is a data structure which records where in the program we are :D
+                                Stack Blowing <em> calling the function which calls itself</em>
+                                Blocking the code, code execution being slow.
+                                <em>
+                                    <mark> The event loop job is to look at the stack and look at  the task queue. If
+                                        the stack is empty it takes the first thing on the queue and pushes it to the call stack </mark>
+                                </em>
+                                <img src="images/event-loop.png" alt="" style={{ width: "300px" }} />
+                                <img src="images/event-loop2.png" alt="" style={{ width: "300px" }} />
+                            </p>
+                        </details>
+
+                    </li>
                 </ul>
                 <hr class="css-hr" />
 
