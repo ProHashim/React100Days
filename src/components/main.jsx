@@ -85,6 +85,17 @@ const Main = () => {
                         </details>
 
                     </li>
+
+                    <li>
+                        <details>
+                            <summary><h3 className="titles">Memoization</h3></summary>
+                            <p>
+                                A technique in JS/ programming which attempts to increase
+                                a function's performance by caching its previosly computed results
+                            </p>
+                        </details>
+
+                    </li>
                 </ul>
                 <hr class="css-hr" />
 
@@ -146,6 +157,48 @@ const Main = () => {
                             </p>
                         </details>
 
+                    </li>
+                    <li>
+                        <details>
+                            <summary><h3 className="titles"> Async JS </h3></summary>
+                            <p>
+                                <a href="https://youtu.be/SrNQS8J67zc"> Here</a> is the video to watch for Async JS
+                            </p>
+                        </details>
+
+                    </li>
+
+                    <li>
+                        <details>
+                            <summary><h3 className="titles"> Hoisting </h3></summary>
+                            <p>
+                                Hoisting is JS default behaviour of moving
+                                all declaration to the top of current scope
+                                Only declaration is hosted and not initialization.
+                                <h4>Example:</h4>
+
+                                <span className="code-container">
+                                    <code>
+                                        var x = 5
+                                        alert("x is =" + "and y is " + y)
+                                        let y = 7
+                                    </code>
+                                </span>
+
+
+                            </p>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details>
+                            <summary><h3 className="titles"> Hoisting </h3></summary>
+                            <p>
+
+
+
+                            </p>
+                        </details>
                     </li>
                 </ul>
 

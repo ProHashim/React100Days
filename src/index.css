@@ -22,7 +22,25 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    color: #fff;
+    background: transparent;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 0;
+    
 }
+.code-container{
+  background:slategray;
+
+  font-size: 1rem;
+  line-height: 1.5em;
+  margin: 1.5em 0 3em;
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 10px;
+min-width: 100%;
+}
+
 
 .header-container{
   background-color: #20232a;
@@ -119,6 +137,7 @@ header{
 .pre-req-left,  .pre-req-right{
   list-style-type: none;
   width: 50%;
+  padding: 15px;
 }
 details summary::-webkit-details-marker,
 details summary::marker {
